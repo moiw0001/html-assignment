@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Assignment</title>
-    <link rel="stylesheet" href="main.css">
-
+    <link href="css/main.css" rel="stylesheet"/>
 </head>
 <body>
     <header>
-        <h1>html-assignment</h1>
+        <h1 class="site-title">html-assignment</h1>
         <nav>
             
-            <a href="note.html">Notes</a>
+            <a href="note.html">page 2</a>
             <a href="#onpagelink">On page Link</a>
         
         </nav>
     </header>
     <main>
         <section>
-            <h2>Images</h2>
-            <img src="IMG_0561.jpg" alt="My photo" width="300" height="200"> 
+            <h2 id="onpagelink">Images</h2>
+            <img id="my-image" src="IMG_0561.jpg" alt="My photo" width="300" height="200"> 
         </section>
+
+        <section>
         <h2>My hobbies</h2>
-        <ul>
+        <ul class="hobby-list">
       <li>Reading books</li> 
       <li>Watching movies</li> 
       <li>Cooking</li>    
         </ul>
-        <div>
+        </section>
+
+        <section>
             <h3>HTML Tags I Have Learned</h3>
             <dl>
                 <dt><p></p></dt> 
@@ -43,8 +46,12 @@
                 <dd>For heading</dd>
             </dl>
 
-        </div>
+        </section>
 
     </main>
+
+    <footer>
+       <p>&copy; 2025 My HTML Assignment</p> 
+    </footer>
 </body>
 </html>
