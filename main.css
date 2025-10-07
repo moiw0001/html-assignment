@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+header, footer {
+  background-color: brown;
+  padding: 15px;
+  color: white;
+}
+.site-title {
+  color: skyblue;
+}
+#my-image {
+  box-shadow: 0 0 2px 1px black;
+}
+.hobby-list {
+  list-style-type: square;
+}
+.hobby-list li:nth-child(odd) {
+  background-color:pink;
+}
+nav ul {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none; 
+  background-color:burlywood;
+  border: 1px solid #aaa;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-right: 5px;
+  color: black;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #d2b48c; 
+}
